@@ -5,10 +5,10 @@ import { HomeRoutingModule } from './home-routing.module';
 
 import { HomeComponent, NosotrosComponent, ContactoComponent } from './pages';
 
-// import { SharedModule } from '../shared';
+import { SharedModule } from '../shared';
 
 @NgModule({
-  imports: [BrowserModule, HomeRoutingModule /* SharedModule */],
+  imports: [BrowserModule, HomeRoutingModule, SharedModule],
   providers: [],
   declarations: [HomeComponent, NosotrosComponent, ContactoComponent],
 })
