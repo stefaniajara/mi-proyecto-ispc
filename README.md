@@ -1,1 +1,1 @@
-# Mi Pryecto ISPC
+# Mi Proyecto ISPC
