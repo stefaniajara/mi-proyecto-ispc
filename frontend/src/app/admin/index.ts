@@ -1,2 +1,2 @@
 export * from './pages';
-export * from './github.module';
+export * from './admin.module';
