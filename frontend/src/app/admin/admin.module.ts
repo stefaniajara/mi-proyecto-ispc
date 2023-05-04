@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { RouterModule } from '@angular/router';
 import { AdminRoutingModule } from './admin-routing.module';
 import {
   UserComponent,
