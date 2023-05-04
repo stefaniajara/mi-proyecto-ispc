@@ -1,1 +1,1 @@
-export * from './repolist/repo-list.component';
+export * from './list/repo-list.component';
