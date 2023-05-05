@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { HomeModule } from './home/home.module';
+import { ServiciosModule } from './servicios/servicios.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,6 +15,7 @@ import { HomeModule } from './home/home.module';
     HttpClientModule,
     SharedModule,
     HomeModule,
+    ServiciosModule,
     AppRoutingModule,
   ],
   providers: [],
