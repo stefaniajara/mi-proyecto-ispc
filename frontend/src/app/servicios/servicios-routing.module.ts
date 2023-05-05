@@ -7,7 +7,7 @@ const routes: Routes = [
     path: 'servicios',
     component: ServiciosComponent,
     children: [
-      { path: 'musica', component: MusicaComponent },
+      { path: 'musica/subcategoria', component: MusicaComponent },
       { path: 'visuales', component: NavComponent },
     ],
   },
