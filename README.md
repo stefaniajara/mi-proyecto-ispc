@@ -1,3 +1,15 @@
 # Mi Proyecto ISPC
 
-INICIO - NOSOTROS - CONTACTO - SERVICIOS - CARRITO - LOGIN - REGISTRO
+- INICIO: Stefi
+
+- NOSOTROS: Emma
+
+- CONTACTO: Juanca
+
+- SERVICIOS: Facu
+
+- CARRITO: Ale
+
+- LOGIN: Tammi
+
+- REGISTRO: Tammi
