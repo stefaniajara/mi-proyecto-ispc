@@ -1,19 +1,18 @@
-
 # Mi Proyecto ISPC
 
-- INICIO: Stefi
+- INICIO (MODULO HOME): Stefi
 
-- NOSOTROS: Emma
+- NOSOTROS (MODULO HOME): Emma
 
-- CONTACTO: Juanca
+- CONTACTO (MODULO HOME): Juanca
 
-- SERVICIOS: Facu
+- SERVICIOS (MODULO SERVICIOS): Facu
 
-- CARRITO: Ale
+- CARRITO (MODULO PAGOS): Ale
 
-- LOGIN: Tammi
+- LOGIN (MODULO AUTH): Tammi
 
-- REGISTRO: Tammi
+- REGISTRO (MODULO AUTH): Tammi
 
 # Folder Structure Example
 
