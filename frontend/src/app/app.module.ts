@@ -1,14 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { SharedModule } from './shared';
-import { AdminModule } from './admin/admin.module';
-import { HttpClientModule } from '@angular/common/http';
-import { HomeModule } from './home';
-import { PricingModule } from './pricing/pricing.module';
+
+import { SharedModule } from './shared/shared.module';
+import { HomeModule } from './home/home.module';
+import { ServiciosModule } from './servicios/servicios.module';
+import { AuthModule } from './auth/auth.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -16,9 +16,11 @@ import { PricingModule } from './pricing/pricing.module';
     BrowserModule,
     HttpClientModule,
     SharedModule,
-    AdminModule,
+    HomeModule,
+    ServiciosModule,
+    AuthModule,
     AppRoutingModule,
-    PricingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent],

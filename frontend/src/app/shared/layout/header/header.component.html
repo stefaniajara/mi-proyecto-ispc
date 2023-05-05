@@ -1,22 +1,51 @@
-<ul>
-  <li>
-    <a class="navbar-brand" routerLink="/">home</a>
-  </li>
-  <li>
-    <a class="navbar-brand" routerLink="/github/list">GitHub</a>
-  </li>
-  <li>
-    <a class="navbar-brand" routerLink="/admin">Admin</a>
-  </li>
-  <li>
-    <a class="navbar-brand" routerLink="/aboutus">About</a>
-  </li>
-  <li>
-    <a class="navbar-brand" routerLink="/contactus">Contact</a>
-  </li>
-  <li>
-    <a class="navbar-brand" routerLink="/pricing">Pricing</a>
-  </li>
 
-</ul>
+<div class="container">
+  <nav class="navbar h-20 navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="/">MASC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="/">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/nosotros">Nosotros</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" routerLink="/servicios" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Artistas
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Escénicas</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Musica</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Visuales</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Otros Servicios</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contacto">Contacto</a>
+          </li>
+        </ul>
+        <form class="d-flex gap-3 px-2" role="search">
+          <button class="btn btn-outline-primary me-2" type="button" routerLink="login">Iniciar Sesión</button>
+          <button class="btn btn-primary" type="button" routerLink="registro">Registrarse</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>
 <router-outlet></router-outlet>

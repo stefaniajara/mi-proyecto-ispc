@@ -1,3 +1,20 @@
+
+# Mi Proyecto ISPC
+
+- INICIO: Stefi
+
+- NOSOTROS: Emma
+
+- CONTACTO: Juanca
+
+- SERVICIOS: Facu
+
+- CARRITO: Ale
+
+- LOGIN: Tammi
+
+- REGISTRO: Tammi
+
 # Folder Structure Example
 
 Let us build a simple with shared, core and feature module

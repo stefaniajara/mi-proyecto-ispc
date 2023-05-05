@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent, NosotrosComponent } from './home';
 
-import { HomeComponent, ContactUsComponent, AboutUsComponent } from './home';
-import { RepoListComponent } from './github';
-import { PricingComponent } from './pricing';
+const routes: Routes = [{ path: '**', redirectTo: '' }];
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
